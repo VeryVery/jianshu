@@ -46,13 +46,13 @@ Java虚拟机(Java Virtual Machine=JVM)的内存空间分为五个部分
     *  常量存储，比如：public static final来声明一个常量
 
 ---
-##总结
+## 总结
 * 栈是运行时的单位，而堆是存储的单位。
 * 一个线程就会相应有一个线程栈与之对应
 * 栈解决程序的运行问题，即程序如何执行，或者说如何处理数据
 * 堆解决的是数据存储的问题，即数据怎么放、放在哪儿
 
-##Sample
+## Sample
 Object obj = newObject();
 
 * "Object obj" 反映到Java栈的本地变量表中，作为一个reference类型数据出现
